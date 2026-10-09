@@ -13,7 +13,7 @@ echo.
 
 :: 1. Verifikasi Git terpasang
 where git >nul 2>nul
-if %ERRORLEVEL% neq 0 (
+if !ERRORLEVEL! neq 0 (
     echo [ERROR] Git tidak ditemukan di PATH system kamu!
     echo Silakan unduh dan install Git: https://git-scm.com/
     echo.
@@ -25,12 +25,6 @@ if %ERRORLEVEL% neq 0 (
 if not exist ".git" (
     echo [1/5] Inisialisasi repository Git lokal baru...
     git init
-    if %ERRORLEVEL% neq 0 (
-        echo [ERROR] Gagal menjalankan 'git init'.
-        echo.
-        pause
-        exit /b 1
-    )
 ) else (
     echo [1/5] Repository Git lokal sudah aktif.
 )
@@ -38,7 +32,7 @@ if not exist ".git" (
 :: 3. Set atau perbarui Remote URL
 echo [2/5] Mengatur Remote Repository origin...
 git remote get-url origin >nul 2>nul
-if %ERRORLEVEL% equ 0 (
+if !ERRORLEVEL! equ 0 (
     git remote set-url origin https://github.com/Audira141415/AUDIRA-STICK-STORY.git
 ) else (
     git remote add origin https://github.com/Audira141415/AUDIRA-STICK-STORY.git
@@ -61,17 +55,19 @@ if "!COMMIT_MSG!"=="" (
 )
 
 echo.
-echo [4/5] Menambahkan berkas ke staging (git add .)...
+echo [4/5] Menyiapkan berkas (git add .)...
 git add .
 
 :: Periksa apakah ada perubahan yang perlu di-commit
 git diff --cached --quiet
-if %ERRORLEVEL% equ 0 (
+set "HAS_DIFF=!ERRORLEVEL!"
+
+if "!HAS_DIFF!"=="0" (
     echo [INFO] Tidak ada berkas baru atau perubahan untuk di-commit.
 ) else (
     echo [5/5] Menyimpan commit: "!COMMIT_MSG!"
     git commit -m "!COMMIT_MSG!"
-    if %ERRORLEVEL% neq 0 (
+    if !ERRORLEVEL! neq 0 (
         echo [ERROR] Gagal melakukan commit.
         echo.
         pause
@@ -85,7 +81,7 @@ echo ----------------------------------------------------------------
 echo Mengunggah ke GitHub (git push -u origin main)...
 echo ----------------------------------------------------------------
 git push -u origin main
-if %ERRORLEVEL% neq 0 (
+if !ERRORLEVEL! neq 0 (
     echo.
     echo ================================================================
     echo [PERINGATAN / PUSH GAGAL]
