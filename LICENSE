@@ -1,0 +1,72 @@
+AUDIRA PROPRIETARY & COMMERCIAL SOFTWARE LICENSE
+
+PRODUK: AUDIRA STORY (AUDIRA STICK STORY)
+PENCIPTA & PEMEGANG HAK CIPTA: AGUS DWI R (AUDIRA)
+HAK CIPTA (c) 2026 AGUS DWI R (AUDIRA). SELURUH HAK CIPTA DILINDUNGI UNDANG-UNDANG.
+ALL RIGHTS RESERVED.
+
+================================================================================
+PERNYATAAN LISENSI KOMERSIAL / PROPRIETARY (BERBAYAR)
+================================================================================
+
+PEMBERITAHUAN PENTING:
+Perangkat lunak ini ("Audira Story") dan seluruh kode sumber, aset desain,
+antarmuka pengguna, arsitektur, dan dokumentasi terkait adalah karya cipta
+eksklusif dan kekayaan intelektual milik AGUS DWI R (AUDIRA).
+
+Perangkat lunak ini TIDAK DIRILIS SEBAGAI PERANGKAT LUNAK SUMBER TERBUKA (OPEN SOURCE).
+Penggunaan, pengunduhan, penyalinan, instalasi, dan distribusi perangkat lunak ini
+tunduk secara penuh pada ketentuan Lisensi Komersial Proprietary berikut:
+
+1. PEMBERIAN HAK LISENSI (GRANT OF LICENSE)
+   Dengan pembelian lisensi komersial resmi atau izin tertulis langsung dari
+   Agus Dwi R (AUDIRA), Pengguna ("Pemegang Lisensi") diberikan hak non-eksklusif,
+   tidak dapat dipindahtangankan, dan terbatas untuk:
+   a. Memasang dan menjalankan Audira Story pada perangkat yang diizinkan sesuai
+      dengan paket lisensi yang dibeli (Personal / Professional / Commercial Studio).
+   b. Memproduksi, merender, dan mengekspor konten video hasil kreasi untuk
+      tujuan komersial maupun non-komersial (YouTube, media sosial, periklanan,
+      edukasi, dan siaran) tanpa royalti tambahan kepada Pemegang Hak Cipta.
+
+2. BATASAN & LARANGAN KETAT (RESTRICTIONS)
+   Tanpa persetujuan tertulis eksplisit dari Agus Dwi R (AUDIRA), DILARANG KERAS:
+   a. Menjual kembali (reselling), menyewakan, meminjamkan, atau mendistribusikan
+      kembali perangkat lunak ini atau bagian kodenya kepada pihak ketiga.
+   b. Melakukan reverse engineering, dekompilasi, disassembli, atau membongkar
+      kode sumber biner aplikasi untuk tujuan kloning atau plagiarisme.
+   c. Melakukan rebranding, mengganti nama produk, menghapus tanda hak cipta,
+      atau mengklaim kepemilikan atas sistem arsitektur Audira Story.
+   d. Mengunggah atau mempublikasikan salinan kode sumber atau installer resmi
+      ke repositori publik tanpa izin resmi Pemegang Hak Cipta.
+
+3. KEPEMILIKAN HAK KEKAYAAN INTELEKTUAL (INTELLECTUAL PROPERTY)
+   Seluruh hak milik, hak cipta, merek dagang, rahasia dagang, dan kekayaan
+   intelektual atas Audira Story tetap menjadi hak milik penuh dan mutlak
+   dari AGUS DWI R (AUDIRA). Tidak ada pengalihan hak kepemilikan yang terjadi
+   melalui pembelian lisensi ini selain hak pakai sesuai ketentuan.
+
+4. KOMPONEN PIHAK KETIGA (THIRD-PARTY ACKNOWLEDGMENTS)
+   Aplikasi ini memanfaatkan beberapa komponen dan pustaka pihak ketiga yang
+   didistribusikan bersama di bawah lisensi masing-masing:
+   - FFmpeg (dilisensikan di bawah GNU GPL v3 / LGPL).
+   - whisper.cpp (dilisensikan di bawah MIT License).
+   - Model Whisper Small (dilisensikan di bawah MIT License).
+   - Tipografi Caption Google Fonts (SIL Open Font License 1.1 dan Apache 2.0).
+   - LobeHub Icons (dilisensikan di bawah MIT License).
+   Lisensi pihak ketiga tersebut tetap berlaku secara independen untuk
+   komponennya masing-masing sebagaimana tercantum pada folder resources/licenses/.
+
+5. PENAFIAN JAMINAN & BATASAN TANGGUNG JAWAB (DISCLAIMER & LIABILITY)
+   PERANGKAT LUNAK INI DISEDIAKAN "SEBAGAIMANA ADANYA" (AS IS), TANPA JAMINAN
+   DALAM BENTUK APA PUN, BAIK TERSURAT MAUPUN TERSIRAT. DALAM KEADAAN APA PUN,
+   AGUS DWI R (AUDIRA) TIDAK BERTANGGUNG JAWAB ATAS SEGALA KERUGIAN LANGSUNG,
+   TIDAK LANGSUNG, INSIDENTAL, ATAU KONSEKUENSIAL YANG TIMBUL DARI PENGGUNAAN
+   ATAU KETIDAKMAMPUAN MENGGUNAKAN PERANGKAT LUNAK INI.
+
+================================================================================
+INFORMASI LISENSI KOMERSIAL & DUKUNGAN RESMI:
+Pencipta & Pengembang: AGUS DWI R (AUDIRA)
+Email / Kontak Bisnis: kontak resmi AUDIRA
+GitHub: https://github.com/audira
+Hak Cipta (c) 2026 Agus Dwi R (AUDIRA). Seluruh hak cipta dilindungi undang-undang.
+================================================================================
