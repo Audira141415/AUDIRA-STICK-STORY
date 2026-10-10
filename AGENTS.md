@@ -4,7 +4,7 @@ Audira Story adalah aplikasi desktop (Electron + React + TypeScript) yang mengub
 AI menulis naskah dan rencana visual, Higgsfield membuat gambar dan video, Gemini atau ElevenLabs membuat suara
 narator, lalu semuanya dirangkai di editor timeline dan diekspor jadi MP4 dengan FFmpeg.
 
-Baca file ini dulu sebelum mengubah kode. Detail lengkapnya ada di folder [`docs/`](docs/README.md).
+Baca file ini dulu sebelum mengubah kode. Peta kognitif & sistem memori tersedia di [`.agents/MEMORY.md`](.agents/MEMORY.md) dan [`.agents/BRAIN.md`](.agents/BRAIN.md). Detail teknis lengkap ada di folder [`docs/`](docs/README.md).
 
 ## Perintah
 
@@ -100,6 +100,9 @@ docs/              dokumentasi pengembang
 
 | Topik | File |
 |---|---|
+| Sistem Memori & Anti-Amnesia | [.agents/MEMORY.md](.agents/MEMORY.md) |
+| Master Kognitif & Otak Proyek | [.agents/BRAIN.md](.agents/BRAIN.md) |
+| Panduan Tugas Aktif & SOP | [.agents/TASK_INSTRUCTION.md](.agents/TASK_INSTRUCTION.md) |
 | Arsitektur, proses, IPC, penyimpanan | [docs/arsitektur.md](docs/arsitektur.md) |
 | Skema database dan tipe data | [docs/data-model.md](docs/data-model.md) |
 | Alur produksi (naskah → visual → suara → caption) | [docs/alur-produksi.md](docs/alur-produksi.md) |
